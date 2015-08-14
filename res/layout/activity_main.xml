@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tyaathome.timecardformobile.MainActivity" >
+
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="vertical"
+		android:gravity="center_vertical|center_horizontal">
+		
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			
+		    <TextView
+		        android:id="@+id/tv_username"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="3"
+		        android:text="@string/username"
+		        />
+		    <EditText
+				android:id="@+id/et_username"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="5"
+		       	android:hint="@string/username"
+		        />
+		    
+		</LinearLayout>
+		
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			
+		    <TextView
+		        android:id="@+id/tv_password"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="3"
+		        android:text="@string/password"
+		        />
+		    <EditText
+				android:id="@+id/et_password"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="5"
+		       	android:hint="@string/password"
+		        />
+		    
+		</LinearLayout>
+	    
+	</LinearLayout>
+    
+    <LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="vertical">
+		
+		<LinearLayout 
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="horizontal">
+		    <Button
+		        android:id="@+id/flag1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:text="@string/flag1" />
+		    
+			<Button
+		        android:id="@+id/flag2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:text="@string/flag2" />
+		</LinearLayout>
+		
+		<LinearLayout 
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="horizontal">
+			<Button
+		        android:id="@+id/flag3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:text="@string/flag3" />
+		            
+			<Button
+		        android:id="@+id/flag4"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:text="@string/flag4" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

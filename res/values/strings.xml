@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TimeCardForMobile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="flag1">1</string>
+    <string name="flag2">2</string>
+    <string name="flag3">3</string>
+    <string name="flag4">4</string>
+    <string name="username">用&#160;户&#160;名</string>
+    <string name="password">密&#160;&#160;&#160;码</string>
+
+</resources>
